@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <h2 id="question">What is the answer to this question?</h2>
+            <div id="choices" class="choice-container"></div>
+            <button id="next-btn" class="btn hidden">Next Question</button>
+            <div id="end" class="hidden">
+                <h2>Your Score: <span id="final-score">0</span></h2>
+                <button id="replay-btn" class="btn">Replay</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
